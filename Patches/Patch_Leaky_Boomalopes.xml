@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Boomalope"]/comps</xpath>
+    <value>
+      <li Class="AnimalBehaviours.CompProperties_FilthProducer">
+        <filthType>Filth_Fuel</filthType> 
+        <rate>0.3</rate> 
+        <radius>1</radius> 
+        <ticksToCreateFilth>6000</ticksToCreateFilth>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>
