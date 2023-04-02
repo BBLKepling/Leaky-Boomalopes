@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Boomrat"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Boomrat"]</xpath>
+      <value>
+        <comps />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Boomrat"]/comps</xpath>
+    <value>
+      <li Class="AnimalBehaviours.CompProperties_FilthProducer">
+        <filthType>Filth_Fuel</filthType> 
+        <rate>0.3</rate> 
+        <radius>1</radius> 
+        <ticksToCreateFilth>9000</ticksToCreateFilth>
+      </li>
+    </value>
+  </Operation>
+
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="Boomalope"]/comps</xpath>
     <value>

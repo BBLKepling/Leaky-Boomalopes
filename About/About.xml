@@ -6,7 +6,7 @@
     <li>1.4</li>
   </supportedVersions>
   <packageId>BBLKepling.LeakyBoomalopes</packageId>
-  <description>Makes boomalopes occasionally leak puddles of chemfuel.</description>
+  <description>Makes boomalopes occasionally leak puddles of chemfuel. Also patches Boomrats and BoomBats(VAE).</description>
   <modDependencies>
     <li>
       <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
