@@ -5,4 +5,10 @@
     <!-- Vanilla Expanded -->
       <li IfModActive="VanillaExpanded.VanillaAnimalsExpanded">Vanilla_Expanded_Animals</li>
   </v1.4>
+  <v1.5>
+    <!-- Vanilla -->
+      <li>/</li>
+    <!-- Vanilla Expanded -->
+      <li IfModActive="VanillaExpanded.VanillaAnimalsExpanded">Vanilla_Expanded_Animals</li>
+  </v1.5>
 </loadFolders>

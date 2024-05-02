@@ -4,6 +4,7 @@
   <author>BBLKepling</author>
   <supportedVersions>
     <li>1.4</li>
+    <li>1.5</li>
   </supportedVersions>
   <packageId>BBLKepling.LeakyBoomalopes</packageId>
   <description>Makes boomalopes occasionally leak puddles of chemfuel. Also patches Boomrats and BoomBats(VAE).</description>
